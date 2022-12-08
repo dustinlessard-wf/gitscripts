@@ -5,7 +5,7 @@ void main(List<String> arguments) async {
   configureWTransportForVM();
   int pages = 40;
   int resultsPerPage = 100;
-  String authorLogin = 'dustinlessard-wf';
+  String authorLogin = ''; //Github login or email address
 
   //todo : figure out how to get a list of contributions across repos
 
