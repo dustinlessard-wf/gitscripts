@@ -50,4 +50,5 @@ void main(List<String> arguments) async {
   }
 
   print('I contributed to ${reposIContributedTo.length} repos.');
+  print(reposIContributedTo.join(', '));
 }
